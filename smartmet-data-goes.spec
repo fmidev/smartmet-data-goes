@@ -1,7 +1,7 @@
 %define smartmetroot /smartmet
 
 Name:           smartmet-data-goes
-Version:        17.6.30
+Version:        17.11.7
 Release:        1%{?dist}.fmi
 Summary:        SmartMet Data GOES Satellite
 Group:          System Environment/Base
@@ -58,5 +58,8 @@ rm -rf $RPM_BUILD_ROOT
 %{smartmetroot}/*
 
 %changelog
+* Tue Nov 7 2017 Mikko Rauhala <mikko.rauhala@fmi.fi> 17.11.7-1.%{?dist}.fmi
+- Updated requires
+
 * Fri Jun 30 2017 Mikko Rauhala <mikko.rauhala@fmi.fi> 17.6.30-1.el7.fmi
 - Initial Version
